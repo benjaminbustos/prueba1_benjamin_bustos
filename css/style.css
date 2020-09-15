@@ -1,0 +1,19 @@
+body{
+    margin: 0%;
+}
+.caja{
+    background-image: url(../img/img-3.jpg);
+    height: 600px;
+    margin: 10px;
+}
+.cajabarra{
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px;
+}
+.cajatitulo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+}
