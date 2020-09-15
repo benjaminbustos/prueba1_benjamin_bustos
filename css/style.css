@@ -40,3 +40,59 @@ body{
     display: grid;
     align-content: center;
 }
+
+.cajaacerca{
+    text-align: center;
+}
+.cajaacercaimagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cajaacercatexto p{
+    text-align: justify;
+    padding: 10px;
+}
+.cajasuscribirse{
+    background-color: rgb(145, 142, 142);
+    text-align: center;
+    display: grid; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cajasuscribirse h1{
+    margin-bottom: 0%;
+}
+.cajasuscribirse input{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid white;
+    background: rgb(145, 142, 142);
+    box-sizing: border-box;
+}
+.cajasuscribirse button{
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+    size: 15px;
+}
+.cajarrss{
+    text-align: center;
+    padding-top:50px ;
+    padding-bottom: 50px;
+
+}
+.cajarrssicono{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cajarrssicono i{
+    color: white;
+    background: rgb(145, 142, 142);
+    margin-right: 20px;
+    width: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
