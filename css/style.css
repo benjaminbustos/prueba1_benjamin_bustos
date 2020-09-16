@@ -59,6 +59,7 @@ body{
     display: grid; 
     padding-top: 50px;
     padding-bottom: 50px;
+    justify-items: center;
 }
 .cajasuscribirse h1{
     margin-bottom: 0%;
@@ -95,4 +96,40 @@ body{
     border-radius: 25px;
     padding: 10px;
     text-align: center;
+}
+
+@media screen and (min-width:768px){
+    .caja2{
+
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .caja2panel{
+
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-around;
+    }
+    .caja2articulo{
+
+        width: 350px;
+
+    }
+    .cajaacerca{
+        display: flex;
+    }
+    .cajaacercatexto{
+        width: 50%;
+        padding:70px;
+        padding-top:280px; 
+    }
+    .cajasuscribirse input{
+        width: 600px;
+    }
+    .cajasuscribirse button{
+        width: 200px;
+    }
 }
