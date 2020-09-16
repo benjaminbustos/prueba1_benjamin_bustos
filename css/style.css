@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
 }
 .caja{
     background-image: url(../img/img-1.jpg);
@@ -13,10 +14,11 @@ body{
     padding: 20px;
 }
 .cajatitulo{
+    text-align: center;
+    font-size:40px;
     display: grid;
     align-items: center;
     justify-content: center;
-    transform: translateY(100%);
 }
 .caja2{
     background-color: rgb(170, 169, 169);
@@ -132,4 +134,45 @@ body{
     .cajasuscribirse button{
         width: 200px;
     }
+    .cajarrss{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 70px;
+    }
+    .cajarrssicono i{
+        height: 16px;
+    }
+    .cajarrssacerca{
+        display: flex;
+    }
+    .cajarrssacerca h3{
+        padding-right: 70px;
+    }
+}
+.cajacontacto{
+    margin-top: 50px;
+    padding: 28px;
+    border-radius: 5px;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+}
+.contacto img{
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+.yo{
+    display: flex;
+    flex-direction: column;
+}
+.yo p{
+    font-weight: bold;
+}
+.descripcion{
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
 }
